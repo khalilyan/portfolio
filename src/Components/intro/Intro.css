@@ -1,0 +1,142 @@
+.IntroContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(#010332,#190028);
+    background-position: fixed;
+    background-size: 100%;
+    background-position-y: 0%;
+    background-attachment: fixed;
+    user-select: none;
+}
+.wrapper{
+    width: 100%;
+    height: 650px;
+    color: white;
+    display: flex;
+    font-size: xx-large;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#Poster{
+    display: flex;
+    flex-direction: row;
+    height: 30%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#txtContain{
+    position: relative;
+    right: 20px;
+}
+#txtContain h1,p{
+    margin: 0px;
+    margin-left: 40px;
+}
+
+#scrolldownContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
+}
+@media (max-width: 1350px){
+    .wrapper{
+        font-size: 25px;
+    }
+    #myPhoto{
+        zoom: 90%;
+    }
+
+    #scrolldownContainer{
+        position: relative;
+        bottom: 200px;
+        zoom: 75%;
+    }
+}
+@media (max-width: 1145px){
+    .wrapper{
+        font-size: 20px;
+    }
+    #myPhoto{
+        zoom: 80%;
+    }
+ 
+    #scrolldownContainer{
+        position: relative;
+        bottom: 200px;
+        zoom: 65%;
+    }
+}
+@media (max-width: 980px){
+    .wrapper{
+        font-size: 16px;
+    }
+    #myPhoto{
+        zoom: 90%;
+    }
+
+    #scrolldownContainer{
+        position: relative;
+        bottom: 200px;
+        zoom: 60%;
+    }
+}
+@media (max-width: 835px){
+    .wrapper{
+        font-size: 14px;
+    }
+    #myPhoto{
+        zoom: 70%;
+    }
+
+}
+@media (max-width: 768px){
+    .wrapper{
+        font-size: 17px;
+    }
+    #myPhoto{
+        zoom: 80%;
+    }
+    #Poster{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 10%;
+        justify-content: center;
+        gap: 20px;
+    }
+    #txtContain{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+    #scrolldownContainer{
+        position: relative;
+        bottom: 120px;
+        zoom: 90%;
+        color: black;
+    }
+}
+
+@media (max-width: 585px){
+    .wrapper{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 531px){
+    .wrapper{
+        font-size: 15px;
+    }
+    #myPhoto{
+        zoom: 65%;
+    }
+    #txtContain{
+        text-align: center;
+
+    }
+}

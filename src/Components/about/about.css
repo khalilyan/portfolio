@@ -1,0 +1,97 @@
+.AboutContainer{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+#aboutmeSlice1{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    align-self: center;
+}
+#voiceBtnPlayed{
+    font-size: 60px;
+    color: #010332;
+    cursor: pointer;
+}
+#voiceBtnPaused{
+    color: #1ca800;
+    font-size: 60px;
+    cursor: pointer;
+}
+#ProfilePhoto{
+
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+    background-image: url('./avatar.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 30px;
+    border-radius: 100%;
+}
+#aboutText{
+    font-size: 50px;
+    max-width: 1000px;
+    text-align: start;
+    position: relative;
+    color: #010332;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@media (max-width: 1350px){
+    #aboutmeSlice1{
+        zoom: 80%;
+    }
+    #aboutText{
+        font-size: 40px;
+        max-width: 800px;
+    }
+}
+@media (max-width: 1145px){
+    .AboutContainer{
+        height: 700px;
+    }
+    #aboutmeSlice1{
+        zoom: 70%;
+    }
+    #aboutText{
+        font-size: 35px;
+        max-width: 700px;
+    }
+}
+
+@media (max-width: 768px){
+    #aboutText{
+        font-size: 30px;
+        max-width: 600px;
+    }
+}
+@media (max-width: 617px){
+    #aboutText{
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 567px){
+    #aboutText{
+        font-size: 30px;
+        max-width: 450px;
+    }
+}
+@media (max-width: 442px){
+    #aboutText{
+        font-size: 30px;
+        max-width: 350px;
+    }
+}
+@media (max-width: 387px){
+    #aboutText{
+        font-size: 27px;
+        max-width: 300px;
+    }
+}
