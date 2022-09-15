@@ -33,7 +33,7 @@ export default function Intro() {
      }
 
   return (
-    <div className='IntroContainer' ref={IntroContainer} id='/'>
+    <div className='IntroContainer' ref={IntroContainer} id='/portfolio/'>
       <div className='wrapper'>
 
         <div id='Poster'>

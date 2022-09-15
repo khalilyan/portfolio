@@ -42,7 +42,7 @@ export default function Skills() {
      }
 
   return (
-    <div className='SkillsContainer' ref={SkillsContainer} id='/skills'>
+    <div className='SkillsContainer' ref={SkillsContainer} id='/portfolio/skills'>
        
         <div id='List' ref={ListElement} onMouseMove={parallax}>
             {

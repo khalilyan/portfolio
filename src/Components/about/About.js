@@ -32,7 +32,7 @@ export default function About() {
   return (
     <motion.div 
     className='AboutContainer' 
-    id='/about'
+    id='/portfolio/about'
     initial={{background: '#190028'}}
     whileInView={{background: '#BBBBBB'}}
     transition={{duration:1,delay:1}}

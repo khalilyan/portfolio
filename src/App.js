@@ -8,16 +8,14 @@ import MenuPC from './Components/menu/Menu';
 
 function App() {
   return (
-    <>
-      <MenuPC/>
     <div className="App">
+      <MenuPC/>
       <Intro/>
       <Skills/>
       <About/>
       <Projects/>
       <Contact/>
     </div>
-    </>
   );
 }
 

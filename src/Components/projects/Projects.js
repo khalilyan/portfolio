@@ -28,7 +28,7 @@ export default function Projects() {
   }
 
   return (
-    <div className='projectsContainer' id='/projects'>
+    <div className='projectsContainer' id='/portfolio/projects'>
           <button id='left' onClick={prev}>
           <ArrowBackIosIcon fontSize='large' />
           </button>

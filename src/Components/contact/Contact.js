@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 
 export default function Contact() {
   return (
-    <div className='ContactContainer' id='/contact' >
+    <div className='ContactContainer' id='/portfolio/contact' >
       <div id='Contact1'>
       {
         ContactList.map((el,index)=>(
