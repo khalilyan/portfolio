@@ -65,17 +65,15 @@
         display: none;    
 }
 #MobileLeft{
-        width: 120px;
-        height: 60px;
-        box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.505);
+        width: 130px;
+        height: 70px;
         border: 0px;
         background: rgba(255, 255, 255, 0.386);
         color: rgb(0, 0, 0);
 }
 #MobileRight{
-        width: 120px;
-        height: 60px;
-        box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.505);
+        width: 130px;
+        height: 70px;
         border: 0px;
         background: rgba(255, 251, 251, 0.386);
         color: rgb(0, 0, 0);

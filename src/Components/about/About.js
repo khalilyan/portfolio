@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from 'react'
+import React, { useState } from 'react'
 import './about.css'
 import voice from './aboutmeVoice.mp3'
 import {Howl, Howler} from 'howler';

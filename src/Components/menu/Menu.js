@@ -15,7 +15,6 @@ export default function MenuPC() {
     const handleLocation = (e) => {
         const target = e.target.getAttribute('href');
              let location = document.getElementById(target).offsetTop;
-             console.log(target);
             window.scrollTo({
                 left: 0,
                 top: location - 79
