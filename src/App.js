@@ -1,25 +1,35 @@
-import logo from './logo.svg';
 import './App.css';
+import PreLoader from './Components/PreLoader/PreLoader';
+import Contact from './Sections/Contact/Contact';
+import Intro from './Sections/Intro/Intro';
+import Menu from './Sections/Layout/Menu';
+import Projects from './Sections/Projects/Projects';
+import Skills from './Sections/Skills/Skills';
+import { memo } from 'react';
+import MobMenu from './Sections/Layout/MobMenu';
+import { useMediaQuery } from 'react-responsive'
 
-function App() {
+
+export default memo(function App() {
+ 
+  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 768px)' })
+ 
+ 
+
   return (
+    <>
+    <PreLoader/>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {
+        isTabletOrMobile?<MobMenu/>:<Menu/>
+      }
+      <Intro/>
+      <Skills/>
+      <Projects/>
+      <Contact/>
     </div>
-  );
-}
 
-export default App;
+    </>
+  );
+})
+

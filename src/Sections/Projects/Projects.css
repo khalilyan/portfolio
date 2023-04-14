@@ -1,0 +1,41 @@
+.ProjectsContainer{
+    width: 100%;
+    display: flex;
+    margin: 50px 0px;
+    align-items: center;
+    justify-content: center;
+    column-count: 3;
+}
+
+
+
+.ProjList{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.custom-shape-divider-bottom-1680435553 {
+    /* position: absolute; */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1680435553 svg {
+    position: relative;
+    display: block;
+    width: calc(156% + 1.3px);
+    height: 286px;
+}
+
+.custom-shape-divider-bottom-1680435553 .shape-fill {
+    fill: #FFFFFF;
+}

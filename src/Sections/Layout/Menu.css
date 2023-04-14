@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.MenuContain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+    background-color: rgba(0, 0, 0, 0.094);
+    backdrop-filter: blur(0px);
+    top: 0;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+}
+.MenuContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+.navBar{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+}
+
+label{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+}
+
+#line{
+    background-color: white;
+    position: relative;
+    top: 8px;
+    height: 1px;
+    width: 100%;
+}
+
+@media (max-width: 1024px) {
+    .MenuContent{
+        width: 90%;
+    }
+}

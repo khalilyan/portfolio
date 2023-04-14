@@ -1,0 +1,83 @@
+.ContactContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: smaller;
+    margin-bottom: 10px;
+}
+
+
+
+.ContactWrapper{
+    width: 100%;
+    height: 100%;
+    background: url('./layered-waves-haikei (2).svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;    
+}
+
+.contactList{
+    width: 40%;
+}
+
+.contactItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+
+}
+
+.contactItem a{
+    color: black;
+
+    text-decoration: none;
+}
+
+
+@media (max-width: 1025px) {   
+    .ContactWrapper{
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+    .contactList{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .contactItem{
+        border-bottom: none;
+    }
+    #footer{
+        margin-top: 50px;
+    }
+}
+
+
+
+
+@media (max-width: 436px) { 
+    .contactList{
+        flex-wrap: wrap;
+        width: 90%;
+    }
+}
+
+
+
+@media (max-width: 320px) { 
+    .contactList{
+        flex-direction: column-reverse;
+    }
+}
