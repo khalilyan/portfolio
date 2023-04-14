@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.cdb4508f.css",
-    "main.js": "/portfolio/static/js/main.a0118e3a.js",
+    "main.js": "/portfolio/static/js/main.f3ee9440.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/tristam-and-braken-frame-of-mind-monstercat-release.mp3": "/portfolio/static/media/tristam-and-braken-frame-of-mind-monstercat-release.b039b1b93671a79a0205.mp3",
     "static/media/Armen Khalilyan(CV).pdf": "/portfolio/static/media/Armen Khalilyan(CV).7a627532592acbfa3c2c.pdf",
@@ -23,11 +23,11 @@
     "static/media/layered-waves-haikei (2).svg": "/portfolio/static/media/layered-waves-haikei (2).add9206a6ab507160a47.svg",
     "index.html": "/portfolio/index.html",
     "main.cdb4508f.css.map": "/portfolio/static/css/main.cdb4508f.css.map",
-    "main.a0118e3a.js.map": "/portfolio/static/js/main.a0118e3a.js.map",
+    "main.f3ee9440.js.map": "/portfolio/static/js/main.f3ee9440.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cdb4508f.css",
-    "static/js/main.a0118e3a.js"
+    "static/js/main.f3ee9440.js"
   ]
 }
