@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.cdb4508f.css",
+    "main.js": "/portfolio/static/js/main.a0118e3a.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/tristam-and-braken-frame-of-mind-monstercat-release.mp3": "/portfolio/static/media/tristam-and-braken-frame-of-mind-monstercat-release.b039b1b93671a79a0205.mp3",
+    "static/media/Armen Khalilyan(CV).pdf": "/portfolio/static/media/Armen Khalilyan(CV).7a627532592acbfa3c2c.pdf",
+    "static/media/yerevan.jpg": "/portfolio/static/media/yerevan.700058eab21f977e97d3.jpg",
+    "static/media/TVMenu.jpg": "/portfolio/static/media/TVMenu.332664c8295f284b173c.jpg",
+    "static/media/beantown.jpg": "/portfolio/static/media/beantown.e13e47547ad6dbc6b0ce.jpg",
+    "static/media/React.png": "/portfolio/static/media/React.e55477853e99ea587daf.png",
+    "static/media/92065800-865a-11eb-9626-dff3cb7fef55.png": "/portfolio/static/media/92065800-865a-11eb-9626-dff3cb7fef55.6e66cd4ff6a497e88bde.png",
+    "static/media/likes.jpg": "/portfolio/static/media/likes.b64b770ef1ccff31e4a5.jpg",
+    "static/media/logo-javascript-png-html-code-allows-to-embed-javascript-logo-in-your-website-587.png": "/portfolio/static/media/logo-javascript-png-html-code-allows-to-embed-javascript-logo-in-your-website-587.1362b40d814c1a749f47.png",
+    "static/media/framer-motion-logo.png": "/portfolio/static/media/framer-motion-logo.a7582547da79bef4c9d5.png",
+    "static/media/timer.jpg": "/portfolio/static/media/timer.c37d89b44655fa489367.jpg",
+    "static/media/todo.jpg": "/portfolio/static/media/todo.a53f22794c0437631259.jpg",
+    "static/media/1200px-HTML5_logo_and_wordmark.svg.png": "/portfolio/static/media/1200px-HTML5_logo_and_wordmark.svg.e65a199a1c9a7511ecee.png",
+    "static/media/Git-Icon-1788C.png": "/portfolio/static/media/Git-Icon-1788C.378892cebe338c313d9e.png",
+    "static/media/Adobe_Photoshop_CC_icon.svg.png": "/portfolio/static/media/Adobe_Photoshop_CC_icon.svg.90bf821520c3198246a3.png",
+    "static/media/CSS3_logo_and_wordmark.svg.png": "/portfolio/static/media/CSS3_logo_and_wordmark.svg.865c2fc959e735c9501e.png",
+    "static/media/photo_2023-03-25_15-17-39.jpg": "/portfolio/static/media/photo_2023-03-25_15-17-39.82fb503b53290c8942af.jpg",
+    "static/media/layered-waves-haikei (2).svg": "/portfolio/static/media/layered-waves-haikei (2).add9206a6ab507160a47.svg",
+    "index.html": "/portfolio/index.html",
+    "main.cdb4508f.css.map": "/portfolio/static/css/main.cdb4508f.css.map",
+    "main.a0118e3a.js.map": "/portfolio/static/js/main.a0118e3a.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cdb4508f.css",
+    "static/js/main.a0118e3a.js"
+  ]
+}
