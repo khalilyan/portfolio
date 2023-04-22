@@ -12,11 +12,11 @@ export default function Contact() {
 
           <div className="contactList">
             {
-              contacts.map(item=>(<div key={item.name} className='contactItem' >
+              contacts.map(item=>(<a style={{textDecoration: 'none'}} target='_blank' href={item.value}><div key={item.name} className='contactItem' >
                   {item.icon}
-                  {item.value?<a href={item.value}>{item.name}</a>: <span>{item.name}</span> }
-                  
-                </div>)
+                  {item.value?<p>{item.name}</p>: <span>{item.name}</span> }
+                </div>
+                </a>)
               )
             }
           </div>

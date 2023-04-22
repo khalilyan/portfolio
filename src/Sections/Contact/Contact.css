@@ -35,13 +35,15 @@
     gap: 10px;
     padding: 10px;
     border-bottom: 1px solid black;
+    
+    
 
 }
 
-.contactItem a{
+.contactItem{
     color: black;
-
     text-decoration: none;
+    
 }
 
 

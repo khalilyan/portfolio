@@ -6,12 +6,12 @@ import { motion } from 'framer-motion'
 import Btn1 from '../../Components/Buttons/Btn1/Btn1'
 import MusicWave from '../../Components/MusicWave/MusicWave'
 import track from './tristam-and-braken-frame-of-mind-monstercat-release.mp3'
+import MessageModal from '../../Components/Modals/MessageModal'
 
 
 
 export default function Menu() {
   const [selected, setSelected] = useState(0);
-  const [MenuColor, setMenuColor] = useState('white');
   const [songWaveColor, setSongWaveColor] = useState(true);
   const audioRef = useRef();
 
@@ -31,11 +31,7 @@ export default function Menu() {
    const backdrop = document.getElementsByClassName('MenuContain')[0].style;
    backdrop.backdropFilter= `blur(${window.scrollY/200}px)`
   
-  if(window.scrollY>=WhiteSection.offsetTop-300){
-    setMenuColor('black')
-  } else {
-    setMenuColor('white')
-  }
+ 
   sections.forEach((section,index)=>{
     const sectionTop = section.offsetTop-61;
     const sectionHeight = section.clientHeight;
@@ -55,22 +51,22 @@ export default function Menu() {
 
   
   return (
-    <div className='MenuContain' style={{borderBottom: `1px solid ${MenuColor}`}} >
-      <audio ref={audioRef} loop  src={track} autoPlay={songWaveColor} />
+    <div className='MenuContain' style={{borderBottom: `1px solid white`}} >
+      <audio ref={audioRef} loop  src={track} autoPlay={true} />
           <LayoutGroup>
             <div className="MenuContent">
               <MusicWave handlePlay={handlePlay} songWaveColor={!songWaveColor} />
                 <nav className='navBar' >
                 {
                     menu.map(((item,index) => <span key={index} >
-                    <motion.label style={{opacity: selected===index? 1: .5,color: MenuColor}} whileHover={()=>setSelected(index)} onClick={()=>scrollToSection(index)}>{item.title}</motion.label>
-                    {selected===index && <motion.div style={{backgroundColor: MenuColor}} layoutId='Active' id='line'></motion.div>}
+                    <motion.label style={{opacity: selected===index? 1: .5}} whileHover={()=>setSelected(index)} onClick={()=>scrollToSection(index)}>{item.title}</motion.label>
+                    {selected===index && <motion.div  layoutId='Active' id='line'></motion.div>}
                     </span>
                     ))
                 }
                 </nav>
                 <div>
-                  <Btn1 colorStyle={MenuColor} label={'Download CV'} />
+                  <Btn1 label={'Download CV'} />
                 </div>
             </div>
     </LayoutGroup>
