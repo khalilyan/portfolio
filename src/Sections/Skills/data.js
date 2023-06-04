@@ -36,6 +36,14 @@ export const data = [
       "name": "Adobe PS"
     },
     {
+      "logo": require("./images/node-js-icon-8.png"),
+      "name": "NodeJs"
+    },
+    {
+      "logo": require("./images/express-js.png"),
+      "name": "ExpressJs"
+    },
+    {
       "name": "..."
     }
   ]

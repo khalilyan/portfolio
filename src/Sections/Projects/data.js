@@ -17,11 +17,12 @@ export const projects = [
                 The website's backgrounds change according to the time of day.`
     },
     {
-        name: 'Likes',
-        web: 'https://khalilyan.github.io/Likes/',
-        repository: 'https://github.com/khalilyan/Likes',
-        image: require('./images/likes.jpg'),
-        about: `This project was created to learn how to create components on a website and manage state(Redux-toolkit).`
+        name: 'OPENAI',
+        web: 'https://protected-plains-46100.herokuapp.com/',
+        repository: 'https://github.com/khalilyan/Task_4',
+        image: require('./images/OPENAI.jpg'),
+        about: `This project provides an opportunity to ask your questions to ChatGPT and receive a voice response.
+        (To ask a question, hold up on the microphone icon and speak your question. Then, wait for a response.)`
     },
     {
         name: 'Todo List',
