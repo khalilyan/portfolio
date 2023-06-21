@@ -18,11 +18,24 @@
     height: 100%;
     background: url('./layered-waves-haikei (2).svg');
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
     background-position-y: 100%;
+    animation: backgroundAnimate 2s infinite ease-in-out;
+    animation-direction: alternate-reverse;
     display: flex;
     align-items: center;
     justify-content: space-around;    
+}
+
+@keyframes backgroundAnimate {
+    0% {
+        background-position-y: 80%;
+    }
+    50%{
+    }
+    100%{
+        background-position-y: 95%;
+    }
 }
 
 .contactList{

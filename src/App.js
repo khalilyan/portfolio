@@ -5,7 +5,7 @@ import Intro from './Sections/Intro/Intro';
 import Menu from './Sections/Layout/Menu';
 import Projects from './Sections/Projects/Projects';
 import Skills from './Sections/Skills/Skills';
-import { memo } from 'react';
+import { memo, useRef, useState } from 'react';
 import MobMenu from './Sections/Layout/MobMenu';
 import { useMediaQuery } from 'react-responsive'
 
@@ -13,11 +13,29 @@ import { useMediaQuery } from 'react-responsive'
 export default memo(function App() {
  
   const isTabletOrMobile = useMediaQuery({ query: '(max-width: 768px)' })
+
+
+  const [cursorX,setCursorX] = useState();  
+  const [cursorY,setCursorY] = useState();
+  
+ document.addEventListener('mousemove',(e)=>{
+  setCursorX(e.clientX)
+  setCursorY(e.clientY)
+ })
  
- 
+
 
   return (
     <>
+    {
+      !isTabletOrMobile?<div 
+      className='cursor'
+      style={{
+            left: cursorX+'px',
+            top: cursorY+'px'
+          }}
+      ></div>: null
+    }
     <PreLoader/>
     <div className="App">
       {

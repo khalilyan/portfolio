@@ -28,8 +28,10 @@ export default function Menu() {
  
  window.addEventListener('scroll',()=>{
    const WhiteSection = document.getElementById(3);
-   const backdrop = document.getElementsByClassName('MenuContain')[0].style;
-   backdrop.backdropFilter= `blur(${window.scrollY/200}px)`
+   if(window.innerWidth>768){
+    const backdrop = document.getElementById('menuContain');
+    backdrop.style.backdropFilter= `blur(${window.scrollY/200}px)`
+   }
   
  
   sections.forEach((section,index)=>{
@@ -51,7 +53,7 @@ export default function Menu() {
 
   
   return (
-    <div className='MenuContain' style={{borderBottom: `1px solid white`}} >
+    <div id='menuContain' className='MenuContain' style={{borderBottom: `1px solid white`}} >
       <audio ref={audioRef} loop  src={track} autoPlay={true} />
           <LayoutGroup>
             <div className="MenuContent">

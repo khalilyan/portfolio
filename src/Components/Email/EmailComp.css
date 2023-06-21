@@ -51,11 +51,11 @@
 
 .sendBtn{
     color: white;
+    border: 1px solid rgba(255, 255, 255, 0.644);
     background-color: black;
     width: 120px;
     height: 50px;
     cursor: pointer;
-    border: 0px;
     transition: .5s;
 }
 
