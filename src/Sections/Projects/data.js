@@ -18,7 +18,7 @@ export const projects = [
     },
     {
         name: 'OPENAI',
-        web: 'https://protected-plains-46100.herokuapp.com/',
+        web: 'https://openai-rf8y.onrender.com/',
         repository: 'https://github.com/khalilyan/Task_4',
         image: require('./images/OPENAI.jpg'),
         about: `This project provides an opportunity to ask your questions to ChatGPT and receive a voice response.
@@ -41,7 +41,7 @@ export const projects = [
     },
     {
         name: 'TVMenu',
-        web: 'https://khalilyan.github.io/tvtask /',
+        web: 'https://khalilyan.github.io/tvtask/',
         repository: 'https://github.com/khalilyan/tvtask',
         image: require('./images/TVMenu.jpg'),
         about: `The TV menu has a list of movies, and when you click on any item, the movie trailer plays in the background.
