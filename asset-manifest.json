@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.b43b906a.css",
-    "main.js": "/portfolio/static/js/main.25536976.js",
+    "main.js": "/portfolio/static/js/main.0277f760.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/tristam-and-braken-frame-of-mind-monstercat-release.mp3": "/portfolio/static/media/tristam-and-braken-frame-of-mind-monstercat-release.b039b1b93671a79a0205.mp3",
-    "static/media/Armen Khalilyan(CV).pdf": "/portfolio/static/media/Armen Khalilyan(CV).025cb51d1628fcda8c58.pdf",
+    "static/media/Armen Khalilyan(CV).pdf": "/portfolio/static/media/Armen Khalilyan(CV).f52bcf2967bfcf230ddd.pdf",
     "static/media/yerevan.jpg": "/portfolio/static/media/yerevan.700058eab21f977e97d3.jpg",
     "static/media/TVMenu.jpg": "/portfolio/static/media/TVMenu.332664c8295f284b173c.jpg",
     "static/media/beantown.jpg": "/portfolio/static/media/beantown.e13e47547ad6dbc6b0ce.jpg",
@@ -25,11 +25,11 @@
     "static/media/layered-waves-haikei.svg": "/portfolio/static/media/layered-waves-haikei.1fe029b7b142b236857f.svg",
     "index.html": "/portfolio/index.html",
     "main.b43b906a.css.map": "/portfolio/static/css/main.b43b906a.css.map",
-    "main.25536976.js.map": "/portfolio/static/js/main.25536976.js.map",
+    "main.0277f760.js.map": "/portfolio/static/js/main.0277f760.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b43b906a.css",
-    "static/js/main.25536976.js"
+    "static/js/main.0277f760.js"
   ]
 }
