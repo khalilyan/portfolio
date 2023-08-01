@@ -22,8 +22,8 @@ export const projects = [
         repository: 'https://github.com/khalilyan/Task_4',
         image: require('./images/OPENAI.jpg'),
         about: `This project provides an opportunity to ask your questions to ChatGPT and receive a voice response.
-        (To ask a question, hold up on the microphone icon and speak your question. Then, wait for a response.)`
-        `WARNING: API key not working`
+        (To ask a question, hold up on the microphone icon and speak your question. Then, wait for a response.)
+        WARNING: API key not working`
     },
     {
         name: 'Todo List',
