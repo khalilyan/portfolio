@@ -24,14 +24,6 @@ export const data = [
       "name": "Git/Github"
     },
     {
-      "logo": require("./images/framer-motion-logo.png"),
-      "name": "Framer Motion"
-    },
-    {
-      "logo": require("./images/React.png"),
-      "name": "ReactNative"
-    },
-    {
       "logo": require("./images/Adobe_Photoshop_CC_icon.svg.png"),
       "name": "Adobe PS"
     },
@@ -42,6 +34,10 @@ export const data = [
     {
       "logo": require("./images/express-js.png"),
       "name": "ExpressJs"
+    },
+    {
+      "logo": require("./images/mongodb-logo-D13D67C930-seeklogo.com.png"),
+      "name": "MongoDB"
     },
     {
       "name": "..."

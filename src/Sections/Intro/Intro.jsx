@@ -19,12 +19,12 @@ export default function Intro() {
             initial={{y: 50,opacity: 0}}
             animate={{y: 0,opacity: 1}}
             transition={{duration: 2,delay: 3,ease: 'easeInOut'}}
-            >I like to craft solid and scalable frontend products with great user experiences.</motion.p>
+            >Code that catches the eye, design that catches the heart.</motion.p>
             <motion.p
             initial={{y: 50,opacity: 0}}
             animate={{y: 0,opacity: 1}}
             transition={{duration: 2,delay: 3.5,ease: 'easeInOut'}}
-            >Strong passion for creating beautiful and functional web experiences.</motion.p>
+            >A person who Creates beautiful and functional websites.</motion.p>
             </div>
         </div>
         <div className='ScrollContain' >

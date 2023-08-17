@@ -45,8 +45,8 @@ export default memo(function Skills() {
        </div>
        </div>
        <div className='aboutSkills' style={{display: 'flex',flexDirection: 'column',alignItems: 'center',opacity: .5,fontFamily: 'Orbitron, sans-serif',textAlign: 'center',margin: '0px 50px'}} >
-            <p>{"I also know other languages like a TypeScript,C++,Python and more frameworks for Frontend programming, but I don't use often them practically."}</p>
-            <p>{"main and practical skills are mentioned above"}</p>
+            <p>{"I am also familiar with other languages like TypeScript, C++, Python, and various frameworks for frontend programming. However, I don't often use them in practical applications."}</p>
+            <p>{"The main and practical skills are mentioned above."}</p>
        </div>
     </section>
   )
