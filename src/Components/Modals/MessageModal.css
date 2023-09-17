@@ -11,5 +11,6 @@
 }
 
 .customModal{
-    background: linear-gradient(30deg, rgb(255, 255, 255) 39%, rgb(0, 0, 0) 39%);
+    background-color: black;
+    border-radius: 5px;
 }

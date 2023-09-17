@@ -15,7 +15,7 @@ export const EmailComp = () => {
     const textarea = document.querySelectorAll('textarea');
 
     if(inputs[1].value !== '' && textarea[0].value !== ''){
-    emailjs.sendForm('service_w6njd1v', 'template_ugbgouf', formRef.current, 'F1W_guyFWY7rP_njC')
+    emailjs.sendForm('service_ydeg9cm', 'template_14edodg', formRef.current, 'F1W_guyFWY7rP_njC')
       .then((result) => {
         setModalOpen([true,'Message sent!','I’ll answer you as soon as possible','green'])
           inputs[0].value = '';

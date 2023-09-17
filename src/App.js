@@ -8,6 +8,7 @@ import Skills from './Sections/Skills/Skills';
 import { memo, useRef, useState } from 'react';
 import MobMenu from './Sections/Layout/MobMenu';
 import { useMediaQuery } from 'react-responsive'
+import Nosie from './Components/Nosie/Nosie';
 
 
 export default memo(function App() {
@@ -18,7 +19,7 @@ export default memo(function App() {
   const [cursorX,setCursorX] = useState();  
   const [cursorY,setCursorY] = useState();
   
- document.addEventListener('mousemove',(e)=>{
+ window.addEventListener('mousemove',(e)=>{
   setCursorX(e.clientX)
   setCursorY(e.clientY)
  })
@@ -27,6 +28,7 @@ export default memo(function App() {
 
   return (
     <>
+    <Nosie/>
     {
       !isTabletOrMobile?<div 
       className='cursor'

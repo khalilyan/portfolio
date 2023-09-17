@@ -4,7 +4,7 @@
 }
 .cursor{
   width: 50px;
-  z-index: 10;
+  z-index: 100000;
   height: 50px;
   filter: blur(6px);
   box-shadow: 0px 0px 4px white;

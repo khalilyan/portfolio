@@ -1,0 +1,56 @@
+.ejJFQT .noise {
+    position: fixed;
+    inset: -50%;
+    width: 200%;
+    height: 200vh;
+    background-image: url('./noise.png');
+}
+
+.nosie{
+    position: fixed;
+    inset: -50%;
+    width: 200%;
+    height: 200vh;
+    background-image: url('./noise.png');
+    z-index: 9000;
+    animation: 0.8s steps(10) 0s infinite normal none running noise-animation;
+    pointer-events: none;
+    opacity: 1.6;
+    mix-blend-mode: color-burn;
+}
+
+@keyframes noise-animation {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    10% {
+        transform: translate(-5%, -5%);
+    }
+    20% {
+        transform: translate(-10%, 5%);
+    }
+    30% {
+        transform: translate(5%, -10%);
+    }
+    40% {
+        transform: translate(-5%, 15%);
+    }
+    50% {
+        transform: translate(-10%, 5%);
+    }
+    60% {
+        transform: translate(15%, 0px);
+    }
+    70% {
+        transform: translate(0px, 10%);
+    }
+    80% {
+        transform: translate(-15%, 0px);
+    }
+    90% {
+        transform: translate(10%, 5%);
+    }
+    100% {
+        transform: translate(5%, 0px);
+    }
+}
