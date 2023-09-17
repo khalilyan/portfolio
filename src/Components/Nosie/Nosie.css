@@ -15,8 +15,7 @@
     z-index: 9000;
     animation: 0.8s steps(10) 0s infinite normal none running noise-animation;
     pointer-events: none;
-    opacity: 1.6;
-    mix-blend-mode: color-burn;
+    opacity: 0.8;
 }
 
 @keyframes noise-animation {
@@ -52,5 +51,11 @@
     }
     100% {
         transform: translate(5%, 0px);
+    }
+}
+
+@media (max-width: 768.95) {
+    .nosie{
+        opacity: 0.4;
     }
 }
