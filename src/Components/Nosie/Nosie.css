@@ -54,8 +54,8 @@
     }
 }
 
-@media (max-width: 768.95) {
+@media (max-width: 768.95px) {
     .nosie{
-        opacity: 0.4;
+        opacity: 0.2;
     }
 }

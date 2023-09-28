@@ -12,7 +12,7 @@ import MessageModal from '../../Components/Modals/MessageModal'
 
 export default function Menu() {
   const [selected, setSelected] = useState(0);
-  const [songWaveColor, setSongWaveColor] = useState(true);
+  const [songWaveColor, setSongWaveColor] = useState(false);
   const audioRef = useRef();
 
   const scrollToSection = (index) =>{
@@ -54,7 +54,7 @@ export default function Menu() {
   
   return (
     <div id='menuContain' className='MenuContain' style={{borderBottom: `1px solid white`}} >
-      <audio ref={audioRef} loop  src={track} autoPlay={true} />
+      <audio ref={audioRef} loop  src={track} autoPlay={false} />
           <LayoutGroup>
             <div className="MenuContent">
               <MusicWave handlePlay={handlePlay} songWaveColor={!songWaveColor} />

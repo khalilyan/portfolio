@@ -12,8 +12,6 @@ export default function PreLoader() {
     return (
     <div className='preloader' >
         <motion.div
-        initial={{y: 0,opacity: .8}}
-        animate={{y: -600,opacity: 1}}
         transition={{duration: 2,delay: 2.8}}
         className="txt-container">
             <motion.span
