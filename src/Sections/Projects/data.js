@@ -21,6 +21,13 @@ export const projects = [
         about: `This project offers the opportunity to ask questions to ChatGPT and receive voice responses. To ask a question, tap and hold the microphone icon, speak your question, and then wait for a response. Please be aware that there is an issue with the API key, and it is currently not working.`
     },
     {
+        name: 'Avatar3D',
+        web: 'https://khalilyan.github.io/avatar3d/',
+        repository: 'https://github.com/khalilyan/avatar3d',
+        image: require('./images/avatar3d.png'),
+        about: `With my 'Avatar3D' project, you can view my avatar in immersive 3D and even add animations to bring it to life.`
+    },
+    {
         name: 'Beantown',
         web: 'https://khalilyan.github.io/beantown/',
         repository: 'https://github.com/khalilyan/beantown',
