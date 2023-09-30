@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.889f895a.css",
-    "main.js": "/portfolio/static/js/main.afac6745.js",
+    "main.js": "/portfolio/static/js/main.553608e9.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/tristam-and-braken-frame-of-mind-monstercat-release.mp3": "/portfolio/static/media/tristam-and-braken-frame-of-mind-monstercat-release.b039b1b93671a79a0205.mp3",
     "static/media/Armen Khalilyan(CV).pdf": "/portfolio/static/media/Armen Khalilyan(CV).21c96445e5cab798a075.pdf",
@@ -9,6 +9,7 @@
     "static/media/beantown.jpg": "/portfolio/static/media/beantown.e13e47547ad6dbc6b0ce.jpg",
     "static/media/Inomma.jpg": "/portfolio/static/media/Inomma.8313a5e1afe434a11799.jpg",
     "static/media/React.png": "/portfolio/static/media/React.e55477853e99ea587daf.png",
+    "static/media/avatar3d.png": "/portfolio/static/media/avatar3d.67365114e0599321e303.png",
     "static/media/92065800-865a-11eb-9626-dff3cb7fef55.png": "/portfolio/static/media/92065800-865a-11eb-9626-dff3cb7fef55.6e66cd4ff6a497e88bde.png",
     "static/media/logo-javascript-png-html-code-allows-to-embed-javascript-logo-in-your-website-587.png": "/portfolio/static/media/logo-javascript-png-html-code-allows-to-embed-javascript-logo-in-your-website-587.1362b40d814c1a749f47.png",
     "static/media/noise.png": "/portfolio/static/media/noise.e9b09a8897f14fabd7c0.png",
@@ -23,11 +24,11 @@
     "static/media/layered-waves-haikei.svg": "/portfolio/static/media/layered-waves-haikei.1fe029b7b142b236857f.svg",
     "index.html": "/portfolio/index.html",
     "main.889f895a.css.map": "/portfolio/static/css/main.889f895a.css.map",
-    "main.afac6745.js.map": "/portfolio/static/js/main.afac6745.js.map",
+    "main.553608e9.js.map": "/portfolio/static/js/main.553608e9.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.889f895a.css",
-    "static/js/main.afac6745.js"
+    "static/js/main.553608e9.js"
   ]
 }
