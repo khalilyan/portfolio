@@ -40,3 +40,12 @@ html::-webkit-scrollbar-thumb
 }
 
 
+
+@font-face {
+  font-family: Fighting-Sprit;
+  src: url('../Fighting\ Spirit\ 2.otf');
+}
+
+*{
+  user-select: none;
+}

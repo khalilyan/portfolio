@@ -32,27 +32,36 @@
 
 #text{
     stroke: white;
-    font-family: 'Notable', sans-serif;
-    font-size: 60px;
-    fill: none;
-    stroke-width: 1;
-    animation: titleAnimation;
-    animation-duration: 10s;
+    font-size: 120px;
+    fill: transparent;
+    stroke-width: 0.5;
+    font-family: Fighting-Sprit;
+    animation: textAniamte 3s;
     animation-delay: 3s;
+    transform-origin: center;
 }
 .introTxt{
     text-align: center;
-    margin: 0px 10px;
+    margin: 30px 10px;
 }
 
-@keyframes titleAnimation {
+
+@keyframes textAniamte {
     0%{
-        opacity: .7;
+        opacity: 0;
         stroke-dasharray: 0 50%;
+        stroke-width: 0.5;
+        stroke-dashoffset: 20%;
     }
-    100% {
-        stroke-dasharray: 50% 0;
+    80%{
         opacity: 1;
+        stroke-dasharray: 50% 0;
+        stroke-width: 1;
+        stroke-dashoffset: -20%;
+        filter: drop-shadow(0px 0px 5px rgb(255, 253, 253));
+    }
+    100%{
+        filter: drop-shadow(0px 0px 0px white);
     }
 }
 
@@ -79,16 +88,29 @@
     display: none;
 }
 
-@media (max-width: 978px) {
+
+@media (min-width: 1920px) {
     #text{
-        font-size: 50px;
+        font-size: 180px;
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1250px) {
+    #text{
+        font-size: 100px;
+    }
+}
+
+@media (max-width: 1024px) {
+    #text{
+        font-size: 80px;
+    }
+}
+
+@media (max-width: 845px) {
     
     #text{
-        font-size: 60px;
+        font-size: 90px;
         letter-spacing: 10px;
         text-shadow: 0px 0px 5px black;
     }
@@ -108,7 +130,7 @@
         justify-content: flex-start;
     }
     #text{
-        font-size: 50px;
+        font-size: 80px;
         letter-spacing: 5px;
     }
     .introTxt{
@@ -117,9 +139,9 @@
 }
 
 
-@media (max-width: 460px) {
+@media (max-width: 495px) {
     #text{
-        font-size: 40px;
+        font-size: 60px;
     }
 }
 
@@ -127,13 +149,13 @@
 
 @media (max-width: 375px) {
     #text{
-        font-size: 35px;
+        font-size: 40px;
     }
 }
 
 
 @media (max-width: 320px) {
     #text{
-        font-size: 30px;
+        font-size: 35px;
     }
 }
