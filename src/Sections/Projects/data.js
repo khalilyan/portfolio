@@ -28,6 +28,13 @@ export const projects = [
         about: `With my 'Avatar3D' project, you can view my avatar in immersive 3D and even add animations to bring it to life.`
     },
     {
+        name: 'Fancy-Scrolling',
+        web: 'https://khalilyan.github.io/fancy-scrolling/',
+        repository: 'https://github.com/khalilyan/fancy-scrolling',
+        image: require('./images/FancyScrolling.jpg'),
+        about: `This is a web page where I show the Toyota Supra GTR, and in this project, I have learned fancy scrolling animations like the Apple page.`
+    },
+    {
         name: 'Beantown',
         web: 'https://khalilyan.github.io/beantown/',
         repository: 'https://github.com/khalilyan/beantown',
