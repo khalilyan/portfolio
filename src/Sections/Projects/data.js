@@ -14,11 +14,11 @@ export const projects = [
         about: `The Yerevan website opens as a new browser tab and includes a search system (Google, Yandex, etc.), with backgrounds that change according to the time of day.`
     },
     {
-        name: 'OPENAI',
-        web: 'https://openai-rf8y.onrender.com/',
-        repository: 'https://github.com/khalilyan/Task_4',
-        image: require('./images/OPENAI.jpg'),
-        about: `This project offers the opportunity to ask questions to ChatGPT and receive voice responses. To ask a question, tap and hold the microphone icon, speak your question, and then wait for a response. Please be aware that there is an issue with the API key, and it is currently not working.`
+        name: 'CherryAI',
+        web: 'https://cherryai.onrender.com/',
+        repository: 'https://github.com/khalilyan/CherryAI',
+        image: require('./images/CherryAI.jpg'),
+        about: `This project offers the opportunity to ask questions to Cherry and receive voice responses. To ask a question, tap and hold the microphone icon, speak your question, and then wait for a response. You can get API key from OPENAI website`
     },
     {
         name: 'Avatar3D',
