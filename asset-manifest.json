@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.fe34f31a.css",
-    "main.js": "/portfolio/static/js/main.fcf2a28f.js",
+    "main.js": "/portfolio/static/js/main.ffdc028c.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/tristam-and-braken-frame-of-mind-monstercat-release.mp3": "/portfolio/static/media/tristam-and-braken-frame-of-mind-monstercat-release.b039b1b93671a79a0205.mp3",
+    "static/media/CherryAI.jpg": "/portfolio/static/media/CherryAI.2afbed1f63788cbfbe2d.jpg",
     "static/media/yerevan.jpg": "/portfolio/static/media/yerevan.700058eab21f977e97d3.jpg",
     "static/media/Armen Khalilyan(CV).pdf": "/portfolio/static/media/Armen Khalilyan(CV).f8af20c2e6164489f313.pdf",
     "static/media/beantown.jpg": "/portfolio/static/media/beantown.e13e47547ad6dbc6b0ce.jpg",
@@ -19,18 +20,17 @@
     "static/media/Fighting Spirit 2.otf": "/portfolio/static/media/Fighting Spirit 2.b52ccb14389810d09526.otf",
     "static/media/Adobe_Photoshop_CC_icon.svg.png": "/portfolio/static/media/Adobe_Photoshop_CC_icon.svg.90bf821520c3198246a3.png",
     "static/media/CSS3_logo_and_wordmark.svg.png": "/portfolio/static/media/CSS3_logo_and_wordmark.svg.865c2fc959e735c9501e.png",
-    "static/media/OPENAI.jpg": "/portfolio/static/media/OPENAI.c3ea3b86717eb56239c1.jpg",
     "static/media/photo_2023-03-25_15-17-39.jpg": "/portfolio/static/media/photo_2023-03-25_15-17-39.82fb503b53290c8942af.jpg",
     "static/media/node-js-icon-8.png": "/portfolio/static/media/node-js-icon-8.ac96a6c9c0e11031fc4b.png",
     "static/media/express-js.png": "/portfolio/static/media/express-js.9b344d7469dbbdc76754.png",
     "static/media/layered-waves-haikei.svg": "/portfolio/static/media/layered-waves-haikei.1fe029b7b142b236857f.svg",
     "index.html": "/portfolio/index.html",
     "main.fe34f31a.css.map": "/portfolio/static/css/main.fe34f31a.css.map",
-    "main.fcf2a28f.js.map": "/portfolio/static/js/main.fcf2a28f.js.map",
+    "main.ffdc028c.js.map": "/portfolio/static/js/main.ffdc028c.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fe34f31a.css",
-    "static/js/main.fcf2a28f.js"
+    "static/js/main.ffdc028c.js"
   ]
 }
