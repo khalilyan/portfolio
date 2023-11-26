@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.fe34f31a.css",
-    "main.js": "/portfolio/static/js/main.ffdc028c.js",
+    "main.js": "/portfolio/static/js/main.bfdd0cc5.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/tristam-and-braken-frame-of-mind-monstercat-release.mp3": "/portfolio/static/media/tristam-and-braken-frame-of-mind-monstercat-release.b039b1b93671a79a0205.mp3",
     "static/media/CherryAI.jpg": "/portfolio/static/media/CherryAI.2afbed1f63788cbfbe2d.jpg",
     "static/media/yerevan.jpg": "/portfolio/static/media/yerevan.700058eab21f977e97d3.jpg",
-    "static/media/Armen Khalilyan(CV).pdf": "/portfolio/static/media/Armen Khalilyan(CV).f8af20c2e6164489f313.pdf",
+    "static/media/Armen Khalilyan(CV).pdf": "/portfolio/static/media/Armen Khalilyan(CV).3e1b50488f078807ca78.pdf",
     "static/media/beantown.jpg": "/portfolio/static/media/beantown.e13e47547ad6dbc6b0ce.jpg",
     "static/media/FancyScrolling.jpg": "/portfolio/static/media/FancyScrolling.03b2ab67c5e0c2abf531.jpg",
     "static/media/Inomma.jpg": "/portfolio/static/media/Inomma.8313a5e1afe434a11799.jpg",
@@ -26,11 +26,11 @@
     "static/media/layered-waves-haikei.svg": "/portfolio/static/media/layered-waves-haikei.1fe029b7b142b236857f.svg",
     "index.html": "/portfolio/index.html",
     "main.fe34f31a.css.map": "/portfolio/static/css/main.fe34f31a.css.map",
-    "main.ffdc028c.js.map": "/portfolio/static/js/main.ffdc028c.js.map",
+    "main.bfdd0cc5.js.map": "/portfolio/static/js/main.bfdd0cc5.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fe34f31a.css",
-    "static/js/main.ffdc028c.js"
+    "static/js/main.bfdd0cc5.js"
   ]
 }
